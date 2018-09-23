@@ -1,0 +1,12 @@
+#!/bin/sh
+
+APP="tvmaze"
+AUTO_VERSION=commit-count+git-revision+branch-unless-master
+
+BUILD_HOST=""
+BUILD_USER="safeuser"
+BUILD_AT="/tmp/www/tvmaze/builds"
+
+PRODUCTION_HOSTS=""
+PRODUCTION_USER="safeuser"
+DELIVER_TO="/home/safeuser/www"
